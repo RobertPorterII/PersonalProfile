@@ -1,0 +1,92 @@
+* {
+    font-family:  sans-serif;
+    line-height: 1.614em ;
+    margin: 0;
+    padding: 0;
+    }
+    
+    html {
+        font-size: 16px;
+        margin-top: 3em;
+    }
+    h1, h2, h3 {
+        color: #0c0053
+    }
+    
+    header, main, footer{
+        margin: 0 auto;
+        max-width: 800px;
+    }
+    
+    header{
+        padding: 2em 0;
+    
+    }
+    header h1
+    { 
+        font-size: 3em;
+    }
+    
+    header span {
+        font-size: 1.5em;
+        color: #90c100;
+    }
+    
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        background: #ac0404;
+    }
+    nav a{
+        padding: .5em 2em;
+        text-decoration: none;
+        color: #f5f5f5;
+    }
+    nav a:hover{
+        background: #008d94;
+    }
+    
+    section{
+        margin: 1em 0;
+        padding-top: 3em;
+        min-height: 9em;
+    }
+    section > p{
+        margin: 1em 0 ;
+    }
+    section ul{
+        padding-left: 1.5em;
+    }
+    
+    #robslife{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: auto;
+        gap: 2em;
+    }
+    
+    #robslife article{
+        background: #009930;
+        padding: 1em;
+    
+    }
+    
+    #robslife image{
+        width: 10em;
+        padding: 0 2em;
+    }
+    
+    footer{
+        margin-top: 2em;
+        margin-bottom: 1em;
+        background-color: #ea0b0b;
+        color: #fff;
+        padding: 1em 0;
+        text-align: center;
+    }
